@@ -1,30 +1,26 @@
-let(1) = "Maybe"
-let(2) = "No" 
-let(3) = "yes"
-let(4) = "This happens in the near future"
-let(5) = "This happens in your far future"
-let(6) = "This will never occur"
-let(7) = "This will absolutely never occur"
+let randomNumber = Math.floor (Math. random() * 8);
 
-let(Math.floor(Math.random(1-7))) = rounded
+if (randomNumber === 0) {
+console.log("It is certain")
 
-if (rounded = 1){
-    console.log(1)
-}
-ifelse (rounded = 2){
-    console.log(2);
-}
-ifelse (rounded = 3){
-    console.log(3);
-}
-ifelse (rounded = 4){
-    console.log(4);
-}
-ifelse(rounded = 5){
-    console.log(5);
-}
-ifelse(rounded = 6){
-    console.log(6);
-}else {
-    console.log(7);
+} else if (randomNumber === 1) {
+console.log("Absolutely Yes")
+
+} else if (randomNumber === 2) {
+console.log("not on my watch")
+
+} else if (randomNumber === 3) {
+console.log("maybe, maybe not")
+
+} else if (randomNumber === 4) {
+console.log("I dont know")
+
+} else if (randomNumber === 5) {
+console.log("In the near future, yes")
+
+} else if (randomNumber === 6) {
+console.log("Never in your lifetime")
+
+} else if (randomNumber === 7) {
+console.log("Try again, results are inconclusive");
 }
